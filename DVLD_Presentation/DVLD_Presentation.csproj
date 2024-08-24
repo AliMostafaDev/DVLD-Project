@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DVLD_Presentation</RootNamespace>
+    <AssemblyName>DVLD_Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ctrlPersonCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlPersonCard.Designer.cs">
+      <DependentUpon>ctrlPersonCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ctrlUserCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlUserCard.Designer.cs">
+      <DependentUpon>ctrlUserCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ctrlPersonCardWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ctrlPersonCardWithFilter.Designer.cs">
+      <DependentUpon>ctrlPersonCardWithFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEditPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEditPersonInfo.Designer.cs">
+      <DependentUpon>frmAddEditPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListPeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListPeople.Designer.cs">
+      <DependentUpon>frmListPeople.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersonDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersonDetails.Designer.cs">
+      <DependentUpon>frmPersonDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\ctrlPersonCard.resx">
+      <DependentUpon>ctrlPersonCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ctrlUserCard.resx">
+      <DependentUpon>ctrlUserCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ctrlPersonCardWithFilter.resx">
+      <DependentUpon>ctrlPersonCardWithFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEditPersonInfo.resx">
+      <DependentUpon>frmAddEditPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListPeople.resx">
+      <DependentUpon>frmListPeople.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonDetails.resx">
+      <DependentUpon>frmPersonDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DVLD_Business\DVLD_Business.csproj">
+      <Project>{ba4e25a6-1bfb-467e-8029-41a7e00947b3}</Project>
+      <Name>DVLD_Business</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\field_date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\world_north_america.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nickname.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serial_number.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\systems_engineer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analize_email_sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\address.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_year.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort_by_nickname.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_man %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto-driver-s-license-miniature-figures-driving-school.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card-icon-drivers-license-600nw-2195951213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_windows_logo_Microsoft_lines_waveforms_simple_background_black_edge-1970069.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto-driver-s-license-miniature-figures-driving-school %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_windows_logo_Microsoft_lines_waveforms_simple_background_black_edge-19700691.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lNAD4K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto-driver-s-license-miniature-figures-driving-school %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_windows_logo_Microsoft_lines_waveforms_simple_background_black_edge-19700692.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card-icon-drivers-license-600nw-21959512131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto-driver-s-license-miniature-figures-driving-school1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lNAD4K1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_settings %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_settings %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-1270184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\How-long-do-I-wait-after-submitting-my-medical-licensing-application-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-wallpaper-web-development-application-design-developer-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-695644.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-abstract-line-digital-gradient-luxury_483537-2351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diskette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diskette %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person_woman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_details.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_details %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\call.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people-group-solid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people-group-solid %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people-group-solid %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people-group-solid %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people-group-solid %284%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
