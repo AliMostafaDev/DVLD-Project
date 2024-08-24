@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|solutionrelative:frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80174B92-CB77-4C97-B413-53A04133D578}|..\\DVLD_DataAccess\\DVLD_DataAccess.csproj|c:\\users\\itech\\source\\repos\\dvld-project\\dvld_dataaccess\\clscountrydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmaddeditpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|solutionrelative:frmaddeditpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\controls\\ctrlpersoncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|solutionrelative:controls\\ctrlpersoncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\controls\\ctrlpersoncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|solutionrelative:controls\\ctrlpersoncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmaddeditpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|solutionrelative:frmaddeditpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C4E1B10-924D-4F56-9BD7-A5400CE29CF8}|DVLD_Presentation.csproj|solutionrelative:frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80174B92-CB77-4C97-B413-53A04133D578}|..\\DVLD_DataAccess\\DVLD_DataAccess.csproj|C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\dvld_dataaccess\\clsdataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 212,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsCountryData.cs",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_DataAccess\\clsCountryData.cs",
+              "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsCountryData.cs",
+              "ToolTip": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_DataAccess\\clsCountryData.cs",
+              "RelativeToolTip": "..\\DVLD_DataAccess\\clsCountryData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:13:37.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:13:37.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ctrlPersonCard.cs",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\Controls\\ctrlPersonCard.cs",
+              "RelativeDocumentMoniker": "Controls\\ctrlPersonCard.cs",
+              "ToolTip": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\Controls\\ctrlPersonCard.cs",
+              "RelativeToolTip": "Controls\\ctrlPersonCard.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowDwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-08-24T15:13:37.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ctrlPersonCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\Controls\\ctrlPersonCard.cs",
+              "RelativeDocumentMoniker": "Controls\\ctrlPersonCard.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD_Presentation\\Controls\\ctrlPersonCard.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\USER\\source\\repos\\DVLD_Presentation\\Controls\\ctrlPersonCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-08-24T15:13:37.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmListPeople.cs",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmListPeople.cs",
+              "RelativeDocumentMoniker": "frmListPeople.cs",
+              "ToolTip": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmListPeople.cs",
+              "RelativeToolTip": "frmListPeople.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAawB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:13:37.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAddEditPersonInfo.cs",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmAddEditPersonInfo.cs",
+              "RelativeDocumentMoniker": "frmAddEditPersonInfo.cs",
+              "ToolTip": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmAddEditPersonInfo.cs",
+              "RelativeToolTip": "frmAddEditPersonInfo.cs",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAiwFkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-08-24T15:13:37.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmAddEditPersonInfo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmAddEditPersonInfo.cs",
+              "RelativeDocumentMoniker": "frmAddEditPersonInfo.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD_Presentation\\frmAddEditPersonInfo.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\USER\\source\\repos\\DVLD_Presentation\\frmAddEditPersonInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-08-24T15:13:37.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmListPeople.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmListPeople.cs",
+              "RelativeDocumentMoniker": "frmListPeople.cs",
+              "ToolTip": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_Presentation\\frmListPeople.cs [Design]",
+              "RelativeToolTip": "frmListPeople.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:13:37.945Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "clsDataAccessSettings.cs",
+              "DocumentMoniker": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_DataAccess\\clsDataAccessSettings.cs",
+              "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsDataAccessSettings.cs",
+              "ToolTip": "C:\\Users\\iTECH\\source\\repos\\DVLD-Project\\DVLD_DataAccess\\clsDataAccessSettings.cs",
+              "RelativeToolTip": "..\\DVLD_DataAccess\\clsDataAccessSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:13:37.946Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
